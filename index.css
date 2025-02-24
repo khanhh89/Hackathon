@@ -6,7 +6,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .menu1 img{
     display: none;
@@ -21,10 +20,8 @@ a{
     display: flex;
     align-items: center;
 }
-
 .headline h1{
     font-size: 60px;
-
 }
 .navigation .logo{
     font-size: 20px;
@@ -81,16 +78,13 @@ header{
     flex-grow: 0;
     }
 }
-
-
 section{
     display: flex;
     padding: 100px;
     align-items: center;
     justify-content: center;
     gap: 10px;
-    
-    background: #FFFFFF;
+    background: var(--bg-color);
 }
 section .skills{
     display: flex;
@@ -120,24 +114,66 @@ section .skills{
 }
 
 footer{
-display: flex;
-flex-direction: column;
-align-items: center;
-padding: 0px 100px 70px;
-gap: 10px;
-
-width: 1288px;
-height: 683px;
-
-background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 100px 70px;
+    gap: 10px;
+    width: 1288px;
+    height: 683px;
+    background: var(--bg-color);
 }
 
 footer .left{
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 60px;
+    width: 360px;
+    height: 313px;
+    }
+.left .icon{
+    width: 232px;
+    height: 36px;
 }
-
-
-
-
-
+.right form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    width: 7000px;
+    height: 409px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.right .button{
+    background-color: var(--text-color);
+}
+footer .left{
+    display: flex;
+    flex-direction: column;
+}
+.top  .text1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 50px;
+     width: 249.9px;
+     height: 328px;
+    }
+    .button .text1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 56px;
+        width: 249.9px;
+        height: 328px;
+    }
+    .text1 .Main-title{
+        font-weight: bold;
+    }
